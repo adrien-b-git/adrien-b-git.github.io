@@ -3,7 +3,7 @@ layout: not_homepage
 ---
 
 <div class="container">
-  <form class="email_me" action="https://formspree.io/{{site.email}}" method="POST">
+  <form class="email_me" action="https://formspree.io/{{site.form}}" method="POST">
     <input type="text" name="_gotcha" style="display:none" />
     <div class="row">
       <div class="input-field col m6 s12">
@@ -13,8 +13,8 @@ layout: not_homepage
       </div>
       <div class="input-field col m6 s12">
         <i class="material-icons prefix">phone</i>
-        <input id="icon_telephone" name="phone" type="tel" pattern="^\d{3}-\d{3}-\d{4}$" class="validate email_input">
-        <label for="icon_telephone" data-error="Make sure your number matches this format XXX-XXX-XXXX">Telephone</label>
+        <input id="icon_telephone" name="phone" type="tel" pattern="^\d{2}\d{2}\d{2}\d{2}d{2}$" class="validate email_input">
+        <label for="icon_telephone" data-error="Make sure your number matches this format XX XX XX XX XX">Telephone</label>
       </div>
       <div class="input-field col m6 s12">
         <i class="material-icons prefix">email</i>
