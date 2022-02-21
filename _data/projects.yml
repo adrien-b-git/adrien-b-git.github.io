@@ -1,63 +1,72 @@
 - id: 2
-  title: Tic tac toe
-  url: https://tic-or-treat.herokuapp.com/
-  github_url: https://github.com/nyc-bobolinks-2016/tic_or_treat
-  description: A simple tic-tac-toe game allowing both registered and unregistered users to play against a computer. Logged-in users have the benefit of viewing various statistics about their past games and resuming unfinished games.
+  title: Deca Compiler
+  github_url: https://github.com/adrien-b-git/GL_project
+  description: A project to create a compiler for a version of java.
   technologies: [
-                  html5-plain,
-                  css3-plain-wordmark
-                  javascript-plain,
-                  react-original,
-                  ruby-plain,
-                  rails-plain,
-                  postgresql-plain,
-                  heroku-original
+                  java-plain,
+                  ANTLR, 
+                  Maven,
+                  Jacoco
                 ]
-  cover: /assets/images/project_covers/tic-tac-toe-cover.jpg
+  cover: /assets/images/project_images/project_covers/GL.png
   images: [
-    '/assets/images/project_images/tic_tac_toe/tictactoe1.png',
-    '/assets/images/project_images/tic_tac_toe/tictactoe2.png',
-    '/assets/images/project_images/tic_tac_toe/tictactoe3.png'
+    '/assets/images/project_images/project_covers/GL.png'
   ]
 
 - id: 3
-  title: Stack Overflow Clone
-  url: https://dbc-hackoverflow.herokuapp.com/
-  github_url: https://github.com/wvicioso/hackoverflow
-  description: A standard discussion board app that's an attempt at a very simple version of the popular programming platform <a href='stackoverflow.com'>StackOverflow</a>. It allows users to ask questions, give answers and make comments as well as vote up or down on each of the above.
+  title: Object Oriented Programming with Boids
+  github_url: https://github.com/adrien-b-git/POO_boids
+  description: A work on multi-agents systems.
   technologies: [
-                  html5-plain,
-                  css3-plain-wordmark,
-                  javascript-plain,
-                  ruby-plain,
-                  sinatra-plain,
-                  postgresql-plain,
-                  heroku-original,
-                  materialize-plain
+                  java-plain
                 ]
-  cover: /assets/images/project_covers/hack-overflow-cover.png
+  cover: /assets/images/project_covers/POO.png
   images: [
-    '/assets/images/project_covers/hack-overflow-cover.png'
+    '/assets/images/project_covers/POO.png'
   ]
 - id: 4
-  title: ShootThingsGame
-  url: https://levytsroman.github.io/shootThingsGame/
-  github_url: https://github.com/LevytsRoman/shootThingsGame
-  description: A small javaScript browser game, featuring a red plane (player) and an unhealthy onslaught of enemy planes flying over a pictureque rendering of my favorite planet (Earth) in MS Paint.
+  title: Database-SQL
+  github_url: https://github.com/adrien-b-git/Database-SQL
+  description: The purpose of the project is to realize an online auction application linked to a relational database for a fictitious customer, the Gange company. The company wants to implement a database describing the technical characteristics of the products as well as their status with respect to the auctions (current price, completed bids). For that, the company provided a textual report describing the various relations and the entities which it wishes to see appearing in the database. This specification in textual form was converted into functional dependencies, constraints, then entity/association diagram and normalized relational. A Jav
   technologies: [
-                  html5-plain,
-                  css3-plain-wordmark,
-                  javascript-plain
+                  java-plain,
+                  SQL,
+                  Oracle
                 ]
-  cover: /assets/images/project_covers/shoot-things-game-cover.png
+  cover: /assets/images/project_covers/BD.png
   images: [
-    '/assets/images/project_covers/shoot-things-game-cover.png'
+    '/assets/images/project_covers/BD.png'
   ]
+
+- id: 5
+  title: Geometrical Modelling
+  github_url: https://github.com/adrien-b-git/GeometricalModelling
+  description: Implementation of several curve drawing methods.
+  technologies: [
+                  python-plain
+                ]
+  cover: /assets/images/project_covers/MG2.png
+  images: [
+    '/assets/images/project_covers/MG.png',
+    '/assets/images/project_covers/MG2.png'
+  ]
+
+- id: 6
+  title: Graphical user interface
+  github_url: https://github.com/adrien-b-git/graphical_user_interface
+  description: Implementation of a graphical C librairy
+  technologies: [
+                  C-plain
+                ]
+  cover: /assets/images/project_covers/IG.png
+  images: [
+    '/assets/images/project_covers/IG.png',
+  ]
+
 # - name: Tic-tac-toe
-#   url: https://dbc-engage-me.herokuapp.com/
-#   github_url: https://github.com/LevytsRoman/EngageMe
+#   github_url: https://github.com/adrien-b-git/GL_project
 #   short_description: >
-#     Presentation analytics tool that helps presenters capture, monitor and track the audience's emotional reaction to their content in real-time.
+#     A project to create a compiler for a version of java.
 #   long_description: >
 #     Engage me was a week long final project at <a href='devbootcamp.com'>DevBootcamp</a>. With the help of the Microsoft Cognitive Services API, my team was able to display people's emotions in real time, giving the presenter an overview of how they are doing in real time, as well as the ability to look at the audience's emotion-data after the presentation to see shifts in emotions over time.
 #   technologies: It's build with HTML5, CSS, javaScript, a ruby on rails back-end, jQuery and materialize for forms and styling and Charts.js for the data-visualization. Hosted on heroku.
@@ -65,40 +74,43 @@
 #   tags: back-end Ruby-on-Rails finished javaScript jQuery charts.js materialize ajax HTML5 CSS3
 #   id: 1
 #
-# - name: Tic-tac-toe
-#   url: https://tic-or-treat.herokuapp.com/
-#   github_url: https://github.com/nyc-bobolinks-2016/tic_or_treat
+# - name: Deca Compiler
+#   github_url: https://github.com/adrien-b-git/GL_project
 #   short_description: >
-#     A simple tic-tac-toe game allowing both registered and unregistered users to play against a computer. Logged-in users have the benefit of viewing various statistics about their past games and resuming unfinished games.
+#      A project to create a compiler for a version of java.
 #   long_description: >
-#     This mini-project was a rehearsal of working directly with a client with a pressing deadline. We designed, published, and presented a wireframe to get approval to start building. Adjust design and functionality to fit the client's fickle preferences. As a project lead, it was primarily my job to interact with the clients, delegate the responsibilities for each member as well as make executive decisions when we couldn't agree how to proceed.
-#   technologies: The page is built in HTML5, CSS, JavaScript, jQuery, Materialize, and a ruby on rails serverside. Hosted on heroku.
-#   img: /assets/images/project_covers/tic-tac-toe-cover.jpg
-#   tags: back-end Ruby-on-Rails finished javaScript jQuery Reakt materialize HTML5 CSS3 ajax
+#     This project was carried out in groups of 5 students during the month of January 2022. The aim was to compile a new computer language named Deca inspired by Java. The purpose of this language is purely educational.
+#     A big part of the work was to master the theory of languages. The understanding of the vocabulary and of the different grammar rules allowing to interpret the key words of the code and their actions was essential. We used the ANTLR tool to manage the vocabulary and grammar rules of the code.
+#     A set of Java classes had to be developed to decorate the tree representing the Deca program. This decoration is used to know which actions (assembly code) the compiler must perform: display, loop, condition, declaration of variables, method or class ...
+#     We used semi-agile working methods to be able to compile more and more developed subparts of the language by successive iterations. We started by implementing the basic principles of the language such as variable declaration, display functions, conditional statements ...
+#     A lot of tests were necessary to verify that each new implementation could still compile the previous ones.
+#   img: /assets/images/project_covers/GL.png
+#   tags: java maven jacoco antlr git
 #   id: 2
 #
-# - name: Stack Overflow Clone
-#   url: https://dbc-hackoverflow.herokuapp.com/
-#   github_url: https://github.com/wvicioso/hackoverflow
+# - name: Object Oriented Programming : Boids
+#   github_url: https://github.com/adrien-b-git/POO_boids
 #   short_description: >
-#     A standard discussion board app that's an attempt at a very simple version of the popular programming platform <a href='stackoverflow.com'>StackOverflow</a>. It allows users to ask questions, give answers and make comments as well as vote up or down on each of the above.
+#   A work on multi-agents systems.
 #   long_description: >
-#     Stack Overflow clone project introduced the complexity of nested custom built routes. It's easy to get confused in an insane amount of controllers spread accross multiple folders. Especially on a team, when people are always making changes and adding new code. But I learned to appreciate RESTular naming conventions as well as overcome my fear of merging conflicts. Myself and another teammate decided to revive this project, improve styling, functionality and iron out a few bugs.
+#     The project is dedicated to the study of the properties of multi-agent systems.
+#     The first part consisted in developing a simulator of balls which move in a window, and which bounce on the a window, and which bounce on the edges.
+#     The second part consisted in developing two games of cellular automata: the game of Conway's life and the immigration game. Afterwards we realized a slightly different model of cellular automaton slightly different, but wanting to be more realistic which is the model of segregation of Schelling which aims at simulating the phenomenon of segregation within a population.
+#     The third part presents a model of swarms: the boids. The objective this time is to to add interaction between cellular agents.
 #   technologies: Built with Sinatra back-end, HTML5, CSS, javaScript, jQuery and materialize on client side.
-#   img: /assets/images/project_covers/hack-overflow-cover.png
-#   tags: back-end current Sinatra javaScript ajax jQuery materialize
+#   img: /assets/images/project_covers/POO.png
+#   tags: java
 #   id: 3
 #
-# - name: ShootThingsGame
-#   url: https://levytsroman.github.io/shootThingsGame/
-#   github_url: https://github.com/LevytsRoman/shootThingsGame
+# - name: Database-SQL
+#   github_url: https://github.com/adrien-b-git/Database-SQL
 #   short_description: >
-#     A small javaScript browser game, featuring a red plane (player) and an unhealthy onslaught of enemy planes flying over a pictureque rendering of my favorite planet (Earth) in MS Paint.
+#     Auction plateform.
 #   long_description: >
-#     This is my very first programming project. Before this, I spent few weeks looking at videos, trying to code along. I realized I learn by doing, rather than repeating what others do in a video, so I started this project to explore vanilla javaScript. This is in no way close to finish. At the time I didn't know about making code DRY or Object Oriented Programming. So there is a lot of refactoring that needs to be done. I'd also like to confess that all the images were made by yours truly, with the help of good old MS paint.
-#   technologies: HTML5, CSS, javaScript
-#   img: /assets/images/project_covers/shoot-things-game-cover.png
-#   tags: javaScript front-end current HTML5 CSS3 OOJS
+#     The purpose of the project is to realize an online auction application linked to a relational database for a fictitious customer, the Gange company. The company wants to implement a database describing the technical characteristics of the products as well as their status with respect to the auctions (current price, completed bids). For that, the company provided a textual report describing the various relations and the entities which it wishes to see appearing in the database. This specification in textual form was converted into functional dependencies, constraints, then entity/association diagram and normalized relational. A Jav
+#   technologies: java sql
+#   img: /assets/images/project_covers/BD.png
+#   tags: database sql java
 #   id: 4
 #
 # - name: TipCalculator
