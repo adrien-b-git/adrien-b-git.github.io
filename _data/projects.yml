@@ -1,22 +1,38 @@
 - id: 2
   title: Deca Compiler
   github_url: https://github.com/adrien-b-git/GL_project
-  description: A project to create a compiler for a version of java.
+  description: "This project was carried out in groups of 5 students during the month of January 2022. The aim was to compile a new computer language named Deca inspired by Java. The purpose of this language is purely educational.
+  
+A big part of the work was to master the theory of languages. The understanding of the vocabulary and of the different grammar rules allowing to interpret the key words of the code and their actions was essential. We used the ANTLR tool to manage the vocabulary and grammar rules of the code.
+  
+A set of Java classes had to be developed to decorate the tree representing the Deca program. This decoration is used to know which actions (assembly code) the compiler must perform: display, loop, condition, declaration of variables, method or class ...
+  
+We used semi-agile working methods to be able to compile more and more developed subparts of the language by successive iterations. We started by implementing the basic principles of the language such as variable declaration, display functions, conditional statements ...
+  
+A lot of tests were necessary to verify that each new implementation could still compile the previous ones."
   technologies: [
                   java-plain,
                   ANTLR, 
                   Maven,
                   Jacoco
                 ]
-  cover: /assets/images/project_images/project_covers/GL.png
+  cover: /assets/images/project_covers/Logo.png
   images: [
-    '/assets/images/project_images/project_covers/GL.png'
+    '/assets/images/project_covers/Logo.png',
+    '/assets/images/project_covers/GL.png',
+    '/assets/images/project_covers/horaireGL.png'
   ]
 
 - id: 3
   title: Object Oriented Programming with Boids
   github_url: https://github.com/adrien-b-git/POO_boids
-  description: A work on multi-agents systems.
+  description: "The project is dedicated to the study of the properties of multi-agent systems.
+
+The first part consisted in developing a simulator of balls which move in a window, and which bounce on the a window, and which bounce on the edges.
+
+The second part consisted in developing two games of cellular automata: the game of Conway's life and the immigration game. Afterwards we realized a slightly different model of cellular automaton slightly different, but wanting to be more realistic which is the model of segregation of Schelling which aims at simulating the phenomenon of segregation within a population.
+
+The third part presents a model of swarms: the boids. The objective this time is to to add interaction between cellular agents."
   technologies: [
                   java-plain
                 ]
@@ -27,7 +43,7 @@
 - id: 4
   title: Database-SQL
   github_url: https://github.com/adrien-b-git/Database-SQL
-  description: The purpose of the project is to realize an online auction application linked to a relational database for a fictitious customer, the Gange company. The company wants to implement a database describing the technical characteristics of the products as well as their status with respect to the auctions (current price, completed bids). For that, the company provided a textual report describing the various relations and the entities which it wishes to see appearing in the database. This specification in textual form was converted into functional dependencies, constraints, then entity/association diagram and normalized relational. A Jav
+  description: "The purpose of the project is to realize an online auction application linked to a relational database for a fictitious customer, the Gange company. The company wants to implement a database describing the technical characteristics of the products as well as their status with respect to the auctions (current price, completed bids). For that, the company provided a textual report describing the various relations and the entities which it wishes to see appearing in the database. This specification in textual form was converted into functional dependencies, constraints, then entity/association diagram and normalized relational. A Java program allowing to automatically insert data in the database was created."
   technologies: [
                   java-plain,
                   SQL,
@@ -41,7 +57,17 @@
 - id: 5
   title: Geometrical Modelling
   github_url: https://github.com/adrien-b-git/GeometricalModelling
-  description: Implementation of several curve drawing methods.
+  description: "The purpose of the project is to create an easy to use interface allowing a user to draw curves from a set of points.
+
+To compute these curves, I implemented several methods to choose from:
+
+    Lagrange polynomials ;
+    Béziers curves ;
+    Hermite C1 splines;
+    Hermite C2 splines;
+
+The user can set the resolution of the curve, the tension, and display the curvature."
+
   technologies: [
                   python-plain
                 ]
@@ -54,13 +80,26 @@
 - id: 6
   title: Graphical user interface
   github_url: https://github.com/adrien-b-git/graphical_user_interface
-  description: Implementation of a graphical C librairy
+  description: "The objective of this project is to realize a software library that facilitates the programming of graphical user interfaces. Using this library, a programmer will be able to easily create a graphical interface composed of windows and interactors such as buttons, input fields or mini-games. The realization of this software library (set of functions in C language) is intended for programmers and not for users. We are given functions to :
+
+    access to the pixels of the screen ;
+    draw text ;
+    draw graphic primitives (drawing lines, polygons) ;
+    receive user actions on the keyboard and mouse (keystroke events, mouse movement, etc.).
+
+This project was developed in groups of 4 during more than a month. We had to realize the following algorithms :
+
+    configuration and drawing of the interactors (buttons, windows ...) ;
+    management of the geometry (position, size) of the interactors on the screen, in particular when changing the size of the window ;
+    management of user events (execution of functions in reaction to user actions)."
+
   technologies: [
                   C-plain
                 ]
   cover: /assets/images/project_covers/IG.png
   images: [
     '/assets/images/project_covers/IG.png',
+    '/assets/images/project_covers/TCA.png'
   ]
 
 # - name: Tic-tac-toe
