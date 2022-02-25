@@ -23,7 +23,7 @@ about_me: >
   Adrien Bouchet
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adrien-b-git.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-linked_in_link: "https://www.linkedin.com/in/adrienb"
+linked_in_link: "https://www.linkedin.com/in/adrien-bouchet/"
 github_link: "https://www.github.com/adrien-b-git"
 twitter_username: ""
 google_analytics_id: 'UA-117297510-1'
